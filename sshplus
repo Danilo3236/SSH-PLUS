@@ -2,6 +2,6 @@
 apt update 
 apt upgrade -y
 apt install curl -y
-curl -o sshplus https://github.com/Danilo3236/sshplus/raw/main/$(uname -m)/sshplus
+curl -o sshplus https://github.com/Danilo3236/SSH-PLUS/raw/main/$(uname -m)/sshplus
 chmod +x sshplus
 ./sshplus
